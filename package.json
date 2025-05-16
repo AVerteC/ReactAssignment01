@@ -1,0 +1,31 @@
+{
+  "name": "reactassignment01",
+  "version": "1.0.0",
+  "description": "React Module 1 Assignment",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "compile": "babel src --presets @babel/react src --out-dir public",
+    "watch": "babel src --presets @babel/react src --out-dir public --watch --verbose",
+    "start": "nodemon app.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AVerteC/ReactAssignment01.git"
+  },
+  "author": "Alan Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AVerteC/ReactAssignment01/issues"
+  },
+  "homepage": "https://github.com/AVerteC/ReactAssignment01#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.27.2",
+    "@babel/core": "^7.27.1",
+    "@babel/preset-react": "^7.27.1",
+    "nodemon": "^3.1.10"
+  }
+}
